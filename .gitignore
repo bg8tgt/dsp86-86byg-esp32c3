@@ -1,0 +1,27 @@
+# --- 本机工具/安装物（不进仓库）---
+tools/gh-cli/
+tools/gh-config/
+
+# --- 依赖 ---
+node_modules/
+
+# --- 编译中间产物（保留 bin/Release 成品）---
+**/obj/
+**/*.pdb
+**/*.ilk
+**/*.cache
+**/*.tlog
+
+# --- 临时文件 ---
+_tmp_lx/
+*.log
+*.tmp
+*~
+
+# --- 个人 agent 状态 ---
+.workbuddy/
+
+# --- 系统 ---
+Thumbs.db
+desktop.ini
+.DS_Store

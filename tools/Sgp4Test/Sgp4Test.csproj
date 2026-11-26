@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>11.0</LangVersion>
+    <Nullable>disable</Nullable>
+    <AssemblyName>Sgp4Test</AssemblyName>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\..\YzControl\YzControl\Sat\Sgp4.cs" />
+    <Compile Include="..\..\YzControl\YzControl\Sat\Tle.cs" />
+    <Compile Include="..\..\YzControl\YzControl\Sat\Coord.cs" />
+    <Compile Include="..\..\YzControl\YzControl\Sat\Json.cs" />
+    <Compile Include="..\..\YzControl\YzControl\Sat\PassPredictor.cs" />
+  </ItemGroup>
+</Project>
